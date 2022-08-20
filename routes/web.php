@@ -15,7 +15,7 @@ use App\Http\Controllers\MetaController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('meta.create');
 });
 
 Route::resource('meta', MetaController::class);
